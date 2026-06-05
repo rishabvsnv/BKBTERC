@@ -95,6 +95,25 @@ ul {
 }
 
 /* =========================================
+   HOME HERO SECTION
+========================================= */
+
+.hero-section {
+
+  min-height: 100vh;
+
+  background:
+    linear-gradient(rgba(5, 15, 35, 0.75),
+      rgba(5, 15, 35, 0.75)),
+    url('../images/hero-bg.jpg') center/cover no-repeat;
+
+  padding: 120px 0;
+
+  position: relative;
+
+}
+
+/* =========================================
    TOPBAR
 ========================================= */
 
@@ -219,6 +238,25 @@ ul {
 
   max-width: 750px;
   margin: auto;
+
+}
+
+/* =========================================
+   HOME HERO SECTION
+========================================= */
+
+.hero-section {
+
+  min-height: 100vh;
+
+  background:
+    linear-gradient(rgba(5, 15, 35, 0.75),
+      rgba(5, 15, 35, 0.75)),
+    url('../images/hero-bg.jpg') center/cover no-repeat;
+
+  padding: 120px 0;
+
+  position: relative;
 
 }
 

@@ -263,6 +263,18 @@ if (videoBtn) {
 }
 
 // =========================================
+// GLIGHTBOX
+// =========================================
+
+const lightbox = GLightbox({
+
+  selector: '.glightbox',
+  touchNavigation: true,
+  loop: true
+
+});
+
+// =========================================
 // CONSOLE MESSAGE
 // =========================================
 
