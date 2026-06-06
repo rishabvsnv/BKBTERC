@@ -241,22 +241,42 @@ ul {
 
 }
 
-/* =========================================
-   HOME HERO SECTION
-========================================= */
+/* HERO SLIDER */
 
-.hero-section {
-
-  min-height: 100vh;
-
-  background:
-    linear-gradient(rgba(5, 15, 35, 0.75),
-      rgba(5, 15, 35, 0.75)),
-    url('../images/hero-bg.jpg') center/cover no-repeat;
-
-  padding: 120px 0;
-
+.hero-slider .carousel-item {
   position: relative;
+}
+
+.hero-slide {
+  min-height: 92vh;
+}
+
+.hero-slider .carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.hero-slider .carousel-control-prev,
+.hero-slider .carousel-control-next {
+  width: 5%;
+}
+
+.hero-slider .carousel-control-prev-icon,
+.hero-slider .carousel-control-next-icon {
+  background-size: 70%;
+}
+
+@media (max-width: 768px) {
+
+  .hero-slide {
+    min-height: 80vh;
+    text-align: center;
+  }
+
+  .hero-slide h1 {
+    font-size: 2.3rem;
+  }
 
 }
 
