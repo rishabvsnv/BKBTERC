@@ -1,879 +1,609 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
+    <title>Courses | BKBTERC Neemuch MP</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Explore teacher education programmes offered at Balkavi Bairagi Teacher Education Research Centre including B.Ed, integrated programmes, and educational research opportunities."
+    />
 
-  <title>
-    Courses | BKBTERC Neemuch MP
-  </title>
+    <!-- Bootstrap -->
 
-  <meta name="description"
-    content="Explore teacher education programmes offered at Balkavi Bairagi Teacher Education Research Centre including B.Ed, integrated programmes, and educational research opportunities.">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Bootstrap -->
+    <!-- Bootstrap Icons -->
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
 
-  <!-- Bootstrap Icons -->
+    <!-- AOS -->
 
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-  <!-- AOS -->
+    <!-- CSS -->
 
-  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css"
-    rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-  <!-- CSS -->
+  <body>
+    <!-- TOPBAR -->
 
-  <link rel="stylesheet"
-    href="assets/css/style.css">
+    <div class="topbar bg-dark text-white py-2 small">
+      <div class="container">
+        <div
+          class="d-flex justify-content-between align-items-center flex-wrap gap-2"
+        >
+          <div class="d-flex flex-wrap gap-4">
+            <div>
+              <i class="bi bi-geo-alt-fill me-2"></i>
+              Suvakheda, Neemuch MP, India
+            </div>
 
-</head>
-
-<body>
-
-  <!-- TOPBAR -->
-
-  <div class="topbar bg-dark text-white py-2 small">
-
-    <div class="container">
-
-      <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
-
-        <div class="d-flex flex-wrap gap-4">
-
-          <div>
-            <i class="bi bi-geo-alt-fill me-2"></i>
-            Suvakheda, Neemuch MP, India
+            <div>
+              <i class="bi bi-envelope-fill me-2"></i>
+              bkbterc@gmail.com
+            </div>
           </div>
 
           <div>
-            <i class="bi bi-envelope-fill me-2"></i>
-            gyanodayauniversity@gmail.com
+            <i class="bi bi-telephone-fill me-2"></i>
+            9425939832, 7771001340
           </div>
-
         </div>
-
-        <div>
-
-          <i class="bi bi-telephone-fill me-2"></i>
-          9425939832, 7771001340
-
-        </div>
-
       </div>
-
     </div>
 
-  </div>
+    <!-- NAVBAR -->
 
-  <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold text-primary" href="index.html">
+          BKBTERC
+        </a>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="container">
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"> Home </a>
+            </li>
 
-      <a class="navbar-brand fw-bold text-primary"
-        href="index.html">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"> About </a>
+            </li>
 
-        BKBTERC
+            <li class="nav-item">
+              <a class="nav-link active" href="courses.html"> Courses </a>
+            </li>
 
-      </a>
+            <li class="nav-item">
+              <a class="nav-link" href="admissions.html"> Admissions </a>
+            </li>
 
-      <button class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarMenu">
+            <li class="nav-item">
+              <a class="nav-link" href="faculty.html"> Faculty </a>
+            </li>
 
-        <span class="navbar-toggler-icon"></span>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html"> Gallery </a>
+            </li>
 
-      </button>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html"> Events </a>
+            </li>
 
-      <div class="collapse navbar-collapse"
-        id="navbarMenu">
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"> Contact </a>
+            </li>
 
-        <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+              <a
+                href="admissions.html"
+                class="btn btn-primary rounded-pill px-4"
+              >
+                Apply Now
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-          <li class="nav-item">
-            <a class="nav-link"
-              href="index.html">
+    <!-- HERO -->
 
-              Home
+    <section class="page-hero text-white d-flex align-items-center">
+      <div class="container text-center">
+        <h1 class="display-4 fw-bold mb-3" data-aos="fade-up">
+          Academic Programmes
+        </h1>
 
-            </a>
-          </li>
+        <p class="lead" data-aos="fade-up" data-aos-delay="100">
+          Professional teacher education programmes designed for academic
+          excellence, innovation, and future-ready educators.
+        </p>
+      </div>
+    </section>
 
-          <li class="nav-item">
-            <a class="nav-link"
-              href="about.html">
+    <!-- INTRO -->
 
-              About
+    <section class="section-padding">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img
+              src="assets/images/bkbterc.jpeg"
+              class="img-fluid rounded-4 shadow-lg"
+              alt="Courses"
+            />
+            <!-- assets/images/course-banner.jpg -->
+          </div>
 
-            </a>
-          </li>
+          <div class="col-lg-6" data-aos="fade-left">
+            <span class="section-subtitle"> QUALITY EDUCATION </span>
 
-          <li class="nav-item">
-            <a class="nav-link active"
-              href="courses.html">
+            <h2 class="section-title">
+              Professional Teacher Education Programmes
+            </h2>
 
-              Courses
+            <p class="text-muted mb-4">
+              BKBTERC offers high-quality teacher education programmes focused
+              on pedagogy, classroom management, educational innovation, and
+              practical teaching skills.
+            </p>
 
-            </a>
-          </li>
+            <p class="text-muted mb-4">
+              Our courses are structured to meet modern educational requirements
+              and prepare students for successful teaching careers.
+            </p>
 
-          <li class="nav-item">
-            <a class="nav-link"
-              href="admissions.html">
+            <div class="d-flex gap-3 mb-3">
+              <i class="bi bi-check-circle-fill text-primary"></i>
 
-              Admissions
+              <p class="mb-0">Experienced Academic Faculty</p>
+            </div>
 
-            </a>
-          </li>
+            <div class="d-flex gap-3 mb-3">
+              <i class="bi bi-check-circle-fill text-primary"></i>
 
-          <li class="nav-item">
-            <a class="nav-link"
-              href="faculty.html">
+              <p class="mb-0">Practical Learning Methodologies</p>
+            </div>
 
-              Faculty
+            <div class="d-flex gap-3">
+              <i class="bi bi-check-circle-fill text-primary"></i>
 
-            </a>
-          </li>
+              <p class="mb-0">Professional Teacher Training</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <li class="nav-item">
-            <a class="nav-link"
-              href="gallery.html">
+    <!-- COURSES -->
 
-              Gallery
+    <div class="row g-5">
+      <!-- B.ED -->
 
-            </a>
-          </li>
+      <div class="col-lg-4" data-aos="fade-up">
+        <div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
+          <img
+            src="assets/images/course1.jpg"
+            class="img-fluid"
+            alt="B.Ed Programme"
+          />
 
-          <li class="nav-item">
-            <a class="nav-link"
-              href="events.html">
+          <div class="p-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+              <h3 class="fw-bold mb-0">B.Ed Programme</h3>
 
-              Events
+              <span class="badge bg-primary rounded-pill px-3 py-2">
+                2 Years
+              </span>
+            </div>
 
-            </a>
-          </li>
+            <p class="text-muted mb-4">
+              Bachelor of Education (B.Ed) is a professional teacher training
+              programme focused on pedagogy, educational psychology, classroom
+              teaching, and academic development.
+            </p>
 
-          <li class="nav-item">
-            <a class="nav-link"
-              href="contact.html">
+            <div class="mb-4">
+              <h5 class="fw-bold mb-3">Programme Highlights</h5>
 
-              Contact
+              <ul class="list-unstyled text-muted">
+                <li class="mb-2">
+                  <i class="bi bi-check2 text-primary me-2"></i>
+                  Professional Teacher Training
+                </li>
 
-            </a>
-          </li>
+                <li class="mb-2">
+                  <i class="bi bi-check2 text-primary me-2"></i>
+                  Practical Teaching Experience
+                </li>
 
-          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                <li class="mb-2">
+                  <i class="bi bi-check2 text-primary me-2"></i>
+                  Classroom Management Skills
+                </li>
 
-            <a href="admissions.html"
-              class="btn btn-primary rounded-pill px-4">
+                <li>
+                  <i class="bi bi-check2 text-primary me-2"></i>
+                  Modern Teaching Methodologies
+                </li>
+              </ul>
+            </div>
 
+            <div class="row g-3 mb-4">
+              <div class="col-6">
+                <div class="bg-light rounded-4 p-3 text-center">
+                  <h6 class="fw-bold mb-1">Eligibility</h6>
+
+                  <small class="text-muted"> Graduation </small>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="bg-light rounded-4 p-3 text-center">
+                  <h6 class="fw-bold mb-1">Intake</h6>
+
+                  <small class="text-muted"> 100 Seats </small>
+                </div>
+              </div>
+            </div>
+
+            <a href="admissions.html" class="btn btn-primary rounded-pill px-4">
               Apply Now
-
             </a>
-
-          </li>
-
-        </ul>
-
-      </div>
-
-    </div>
-
-  </nav>
-
-  <!-- HERO -->
-
-  <section class="page-hero text-white d-flex align-items-center">
-
-    <div class="container text-center">
-
-      <h1 class="display-4 fw-bold mb-3"
-        data-aos="fade-up">
-
-        Academic Programmes
-
-      </h1>
-
-      <p class="lead"
-        data-aos="fade-up"
-        data-aos-delay="100">
-
-        Professional teacher education programmes
-        designed for academic excellence,
-        innovation, and future-ready educators.
-
-      </p>
-
-    </div>
-
-  </section>
-
-  <!-- INTRO -->
-
-  <section class="section-padding">
-
-    <div class="container">
-
-      <div class="row align-items-center g-5">
-
-        <div class="col-lg-6"
-          data-aos="fade-right">
-
-          <img src="assets/images/course-banner.jpg"
-            class="img-fluid rounded-4 shadow-lg"
-            alt="Courses">
-
+          </div>
         </div>
-
-        <div class="col-lg-6"
-          data-aos="fade-left">
-
-          <span class="section-subtitle">
-
-            QUALITY EDUCATION
-
-          </span>
-
-          <h2 class="section-title">
-
-            Professional Teacher Education Programmes
-
-          </h2>
-
-          <p class="text-muted mb-4">
-
-            BKBTERC offers high-quality teacher education programmes
-            focused on pedagogy, classroom management,
-            educational innovation, and practical teaching skills.
-
-          </p>
-
-          <p class="text-muted mb-4">
-
-            Our courses are structured to meet
-            modern educational requirements and
-            prepare students for successful teaching careers.
-
-          </p>
-
-          <div class="d-flex gap-3 mb-3">
-
-            <i class="bi bi-check-circle-fill text-primary"></i>
-
-            <p class="mb-0">
-              Experienced Academic Faculty
-            </p>
-
-          </div>
-
-          <div class="d-flex gap-3 mb-3">
-
-            <i class="bi bi-check-circle-fill text-primary"></i>
-
-            <p class="mb-0">
-              Practical Learning Methodologies
-            </p>
-
-          </div>
-
-          <div class="d-flex gap-3">
-
-            <i class="bi bi-check-circle-fill text-primary"></i>
-
-            <p class="mb-0">
-              Professional Teacher Training
-            </p>
-
-          </div>
-
-        </div>
-
       </div>
 
-    </div>
+      <!-- B.A.B.ED -->
 
-  </section>
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
+          <img
+            src="assets/images/course2.jpg"
+            class="img-fluid"
+            alt="Integrated Course"
+          />
 
-  <!-- COURSES -->
+          <div class="p-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+              <h3 class="fw-bold mb-0">B.A.B.Ed Integrated</h3>
 
-  <section class="section-padding bg-light">
+              <span class="badge bg-primary rounded-pill px-3 py-2">
+                4 Years
+              </span>
+            </div>
 
-    <div class="container">
+            <p class="text-muted mb-4">
+              Integrated teacher education programme combining arts education
+              with professional teacher training and practical exposure.
+            </p>
 
-      <div class="text-center mb-5">
+            <div class="mb-4">
+              <h5 class="fw-bold mb-3">Programme Highlights</h5>
 
-        <span class="section-subtitle">
+              <ul class="list-unstyled text-muted">
+                <li class="mb-2">
+                  <i class="bi bi-check2 text-primary me-2"></i>
+                  Integrated Academic Learning
+                </li>
 
-          OUR COURSES
+                <li class="mb-2">
+                  <i class="bi bi-check2 text-primary me-2"></i>
+                  Practical Teaching Exposure
+                </li>
 
-        </span>
+                <li class="mb-2">
+                  <i class="bi bi-check2 text-primary me-2"></i>
+                  Professional Development
+                </li>
 
-        <h2 class="section-title">
+                <li>
+                  <i class="bi bi-check2 text-primary me-2"></i>
+                  Future Teaching Career Preparation
+                </li>
+              </ul>
+            </div>
 
-          Courses Offered
+            <div class="row g-3 mb-4">
+              <div class="col-6">
+                <div class="bg-light rounded-4 p-3 text-center">
+                  <h6 class="fw-bold mb-1">Eligibility</h6>
 
-        </h2>
-
-      </div>
-
-      <div class="row g-5">
-
-        <!-- B.ED -->
-
-        <div class="col-lg-6"
-          data-aos="fade-up">
-
-          <div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
-
-            <img src="assets/images/course1.jpg"
-              class="img-fluid"
-              alt="B.Ed Programme">
-
-            <div class="p-5">
-
-              <div class="d-flex justify-content-between align-items-center mb-4">
-
-                <h3 class="fw-bold mb-0">
-                  B.Ed Programme
-                </h3>
-
-                <span class="badge bg-primary rounded-pill px-3 py-2">
-                  2 Years
-                </span>
-
+                  <small class="text-muted"> 12th Pass </small>
+                </div>
               </div>
 
-              <p class="text-muted mb-4">
+              <div class="col-6">
+                <div class="bg-light rounded-4 p-3 text-center">
+                  <h6 class="fw-bold mb-1">Intake</h6>
 
-                Bachelor of Education (B.Ed)
-                is a professional teacher training programme
-                focused on pedagogy, educational psychology,
-                classroom teaching, and academic development.
+                  <small class="text-muted"> 100 Seats </small>
+                </div>
+              </div>
+            </div>
 
+            <a href="admissions.html" class="btn btn-primary rounded-pill px-4">
+              Apply Now
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- B.SC.B.ED -->
+
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
+          <img
+            src="assets/images/course3.jpg"
+            class="img-fluid"
+            alt="B.Sc.B.Ed Integrated"
+          />
+
+          <div class="p-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+              <h3 class="fw-bold mb-0">B.Sc.B.Ed Integrated</h3>
+
+              <span class="badge bg-primary rounded-pill px-3 py-2">
+                4 Years
+              </span>
+            </div>
+
+            <p class="text-muted mb-4">
+              B.Sc.B.Ed is a 4-year integrated programme after 12th that
+              combines science education with professional teacher training for
+              future educators.
+            </p>
+
+            <div class="mb-4">
+              <h5 class="fw-bold mb-3">Programme Highlights</h5>
+
+              <ul class="list-unstyled text-muted">
+                <li class="mb-2">
+                  <i class="bi bi-check2 text-primary me-2"></i>
+                  Integrated Science & Teaching Education
+                </li>
+
+                <li class="mb-2">
+                  <i class="bi bi-check2 text-primary me-2"></i>
+                  Practical Classroom Training
+                </li>
+
+                <li class="mb-2">
+                  <i class="bi bi-check2 text-primary me-2"></i>
+                  Modern Teaching Techniques
+                </li>
+
+                <li>
+                  <i class="bi bi-check2 text-primary me-2"></i>
+                  Career Preparation for Science Educators
+                </li>
+              </ul>
+            </div>
+
+            <div class="row g-3 mb-4">
+              <div class="col-6">
+                <div class="bg-light rounded-4 p-3 text-center">
+                  <h6 class="fw-bold mb-1">Eligibility</h6>
+
+                  <small class="text-muted"> 12th Pass </small>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="bg-light rounded-4 p-3 text-center">
+                  <h6 class="fw-bold mb-1">Intake</h6>
+
+                  <small class="text-muted"> 100 Seats </small>
+                </div>
+              </div>
+            </div>
+
+            <a href="admissions.html" class="btn btn-primary rounded-pill px-4">
+              Apply Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BENEFITS -->
+
+    <section class="section-padding">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-subtitle"> WHY STUDY WITH US </span>
+
+          <h2 class="section-title">Advantages Of Learning At BKBTERC</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="card border-0 shadow-sm rounded-4 p-5 text-center h-100"
+            >
+              <div class="feature-icon bg-primary text-white mx-auto mb-4">
+                <i class="bi bi-award-fill"></i>
+              </div>
+
+              <h5 class="fw-bold mb-3">Academic Excellence</h5>
+
+              <p class="text-muted mb-0">
+                Industry-focused curriculum designed for future educators.
               </p>
-
-              <div class="mb-4">
-
-                <h5 class="fw-bold mb-3">
-
-                  Programme Highlights
-
-                </h5>
-
-                <ul class="list-unstyled text-muted">
-
-                  <li class="mb-2">
-                    <i class="bi bi-check2 text-primary me-2"></i>
-                    Professional Teacher Training
-                  </li>
-
-                  <li class="mb-2">
-                    <i class="bi bi-check2 text-primary me-2"></i>
-                    Practical Teaching Experience
-                  </li>
-
-                  <li class="mb-2">
-                    <i class="bi bi-check2 text-primary me-2"></i>
-                    Classroom Management Skills
-                  </li>
-
-                  <li>
-                    <i class="bi bi-check2 text-primary me-2"></i>
-                    Modern Teaching Methodologies
-                  </li>
-
-                </ul>
-
-              </div>
-
-              <div class="row g-3 mb-4">
-
-                <div class="col-6">
-
-                  <div class="bg-light rounded-4 p-3 text-center">
-
-                    <h6 class="fw-bold mb-1">
-
-                      Eligibility
-
-                    </h6>
-
-                    <small class="text-muted">
-
-                      Graduation
-
-                    </small>
-
-                  </div>
-
-                </div>
-
-                <div class="col-6">
-
-                  <div class="bg-light rounded-4 p-3 text-center">
-
-                    <h6 class="fw-bold mb-1">
-
-                      Intake
-
-                    </h6>
-
-                    <small class="text-muted">
-
-                      100 Seats
-
-                    </small>
-
-                  </div>
-
-                </div>
-
-              </div>
-
-              <a href="admissions.html"
-                class="btn btn-primary rounded-pill px-4">
-
-                Apply Now
-
-              </a>
-
             </div>
-
           </div>
 
-        </div>
-
-        <!-- B.A.B.ED -->
-
-        <div class="col-lg-6"
-          data-aos="fade-up"
-          data-aos-delay="100">
-
-          <div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
-
-            <img src="assets/images/course2.jpg"
-              class="img-fluid"
-              alt="Integrated Course">
-
-            <div class="p-5">
-
-              <div class="d-flex justify-content-between align-items-center mb-4">
-
-                <h3 class="fw-bold mb-0">
-                  B.A.B.Ed Integrated
-                </h3>
-
-                <span class="badge bg-primary rounded-pill px-3 py-2">
-                  4 Years
-                </span>
-
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="card border-0 shadow-sm rounded-4 p-5 text-center h-100"
+            >
+              <div class="feature-icon bg-primary text-white mx-auto mb-4">
+                <i class="bi bi-building-fill"></i>
               </div>
 
-              <p class="text-muted mb-4">
+              <h5 class="fw-bold mb-3">Modern Infrastructure</h5>
 
-                Integrated teacher education programme
-                combining arts education with
-                professional teacher training and practical exposure.
-
+              <p class="text-muted mb-0">
+                Smart classrooms, library, labs, and seminar halls.
               </p>
+            </div>
+          </div>
 
-              <div class="mb-4">
-
-                <h5 class="fw-bold mb-3">
-
-                  Programme Highlights
-
-                </h5>
-
-                <ul class="list-unstyled text-muted">
-
-                  <li class="mb-2">
-                    <i class="bi bi-check2 text-primary me-2"></i>
-                    Integrated Academic Learning
-                  </li>
-
-                  <li class="mb-2">
-                    <i class="bi bi-check2 text-primary me-2"></i>
-                    Practical Teaching Exposure
-                  </li>
-
-                  <li class="mb-2">
-                    <i class="bi bi-check2 text-primary me-2"></i>
-                    Professional Development
-                  </li>
-
-                  <li>
-                    <i class="bi bi-check2 text-primary me-2"></i>
-                    Future Teaching Career Preparation
-                  </li>
-
-                </ul>
-
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="card border-0 shadow-sm rounded-4 p-5 text-center h-100"
+            >
+              <div class="feature-icon bg-primary text-white mx-auto mb-4">
+                <i class="bi bi-people-fill"></i>
               </div>
 
-              <div class="row g-3 mb-4">
+              <h5 class="fw-bold mb-3">Experienced Faculty</h5>
 
-                <div class="col-6">
+              <p class="text-muted mb-0">
+                Qualified educators focused on professional development.
+              </p>
+            </div>
+          </div>
 
-                  <div class="bg-light rounded-4 p-3 text-center">
-
-                    <h6 class="fw-bold mb-1">
-
-                      Eligibility
-
-                    </h6>
-
-                    <small class="text-muted">
-
-                      12th Pass
-
-                    </small>
-
-                  </div>
-
-                </div>
-
-                <div class="col-6">
-
-                  <div class="bg-light rounded-4 p-3 text-center">
-
-                    <h6 class="fw-bold mb-1">
-
-                      Intake
-
-                    </h6>
-
-                    <small class="text-muted">
-
-                      100 Seats
-
-                    </small>
-
-                  </div>
-
-                </div>
-
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="card border-0 shadow-sm rounded-4 p-5 text-center h-100"
+            >
+              <div class="feature-icon bg-primary text-white mx-auto mb-4">
+                <i class="bi bi-lightbulb-fill"></i>
               </div>
 
-              <a href="admissions.html"
-                class="btn btn-primary rounded-pill px-4">
+              <h5 class="fw-bold mb-3">Practical Exposure</h5>
 
-                Apply Now
-
-              </a>
-
+              <p class="text-muted mb-0">
+                Real classroom experience and innovative teaching methods.
+              </p>
             </div>
-
           </div>
-
         </div>
-
       </div>
+    </section>
 
-    </div>
+    <!-- CTA -->
 
-  </section>
+    <section class="cta-section text-white text-center">
+      <div class="container">
+        <h2 class="display-5 fw-bold mb-4">Start Your Teaching Career Today</h2>
 
-  <!-- BENEFITS -->
+        <p class="lead mb-4">
+          Join BKBTERC and become a confident, skilled, and professional
+          educator.
+        </p>
 
-  <section class="section-padding">
-
-    <div class="container">
-
-      <div class="text-center mb-5">
-
-        <span class="section-subtitle">
-
-          WHY STUDY WITH US
-
-        </span>
-
-        <h2 class="section-title">
-
-          Advantages Of Learning At BKBTERC
-
-        </h2>
-
+        <a
+          href="admissions.html"
+          class="btn btn-light btn-lg rounded-pill px-5"
+        >
+          Apply For Admission
+        </a>
       </div>
+    </section>
 
-      <div class="row g-4">
+    <!-- FOOTER -->
 
-        <div class="col-lg-3 col-md-6">
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <h4 class="fw-bold text-white mb-4">BKBTERC</h4>
 
-          <div class="card border-0 shadow-sm rounded-4 p-5 text-center h-100">
-
-            <div class="feature-icon bg-primary text-white mx-auto mb-4">
-
-              <i class="bi bi-award-fill"></i>
-
-            </div>
-
-            <h5 class="fw-bold mb-3">
-
-              Academic Excellence
-
-            </h5>
-
-            <p class="text-muted mb-0">
-
-              Industry-focused curriculum designed
-              for future educators.
-
+            <p>
+              Balkavi Bairagi Teacher Education Research Centre is committed to
+              academic excellence, innovation, and professional teacher
+              education.
             </p>
-
           </div>
 
-        </div>
+          <div class="col-lg-2">
+            <h5 class="footer-title">Quick Links</h5>
 
-        <div class="col-lg-3 col-md-6">
+            <ul class="list-unstyled footer-links">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
 
-          <div class="card border-0 shadow-sm rounded-4 p-5 text-center h-100">
+              <li>
+                <a href="about.html">About</a>
+              </li>
 
-            <div class="feature-icon bg-primary text-white mx-auto mb-4">
+              <li>
+                <a href="faculty.html">Faculty</a>
+              </li>
 
-              <i class="bi bi-building-fill"></i>
-
-            </div>
-
-            <h5 class="fw-bold mb-3">
-
-              Modern Infrastructure
-
-            </h5>
-
-            <p class="text-muted mb-0">
-
-              Smart classrooms, library,
-              labs, and seminar halls.
-
-            </p>
-
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
 
-        </div>
+          <div class="col-lg-3">
+            <h5 class="footer-title">Courses</h5>
 
-        <div class="col-lg-3 col-md-6">
-
-          <div class="card border-0 shadow-sm rounded-4 p-5 text-center h-100">
-
-            <div class="feature-icon bg-primary text-white mx-auto mb-4">
-
-              <i class="bi bi-people-fill"></i>
-
-            </div>
-
-            <h5 class="fw-bold mb-3">
-
-              Experienced Faculty
-
-            </h5>
-
-            <p class="text-muted mb-0">
-
-              Qualified educators focused on
-              professional development.
-
-            </p>
-
+            <ul class="list-unstyled footer-links">
+              <li>B.Ed Programme</li>
+              <li>B.A.B.Ed Integrated</li>
+              <li>Educational Research</li>
+            </ul>
           </div>
 
-        </div>
+          <div class="col-lg-3">
+            <h5 class="footer-title">Contact</h5>
 
-        <div class="col-lg-3 col-md-6">
-
-          <div class="card border-0 shadow-sm rounded-4 p-5 text-center h-100">
-
-            <div class="feature-icon bg-primary text-white mx-auto mb-4">
-
-              <i class="bi bi-lightbulb-fill"></i>
-
-            </div>
-
-            <h5 class="fw-bold mb-3">
-
-              Practical Exposure
-
-            </h5>
-
-            <p class="text-muted mb-0">
-
-              Real classroom experience
-              and innovative teaching methods.
-
-            </p>
-
+            <ul class="list-unstyled footer-links">
+              <li>Suvakheda, Neemuch MP</li>
+              <li>9425939832, 7771001340</li>
+              <li>bkbterc@gmail.com</li>
+            </ul>
           </div>
-
         </div>
 
+        <hr class="border-secondary my-5" />
+
+        <div class="text-center small">
+          © 2026 BKBTERC. All Rights Reserved.
+        </div>
       </div>
+    </footer>
 
-    </div>
+    <!-- WHATSAPP -->
 
-  </section>
+    <a href="https://wa.me/919827550959" class="whatsapp-btn">
+      <i class="bi bi-whatsapp"></i>
+    </a>
 
-  <!-- CTA -->
+    <!-- JS -->
 
-  <section class="cta-section text-white text-center">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <div class="container">
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
-      <h2 class="display-5 fw-bold mb-4">
-
-        Start Your Teaching Career Today
-
-      </h2>
-
-      <p class="lead mb-4">
-
-        Join BKBTERC and become a confident,
-        skilled, and professional educator.
-
-      </p>
-
-      <a href="admissions.html"
-        class="btn btn-light btn-lg rounded-pill px-5">
-
-        Apply For Admission
-
-      </a>
-
-    </div>
-
-  </section>
-
-  <!-- FOOTER -->
-
-  <footer class="footer-section">
-
-    <div class="container">
-
-      <div class="row g-5">
-
-        <div class="col-lg-4">
-
-          <h4 class="fw-bold text-white mb-4">
-
-            BKBTERC
-
-          </h4>
-
-          <p>
-
-            Balkavi Bairagi Teacher Education Research Centre
-            is committed to academic excellence,
-            innovation, and professional teacher education.
-
-          </p>
-
-        </div>
-
-        <div class="col-lg-2">
-
-          <h5 class="footer-title">
-
-            Quick Links
-
-          </h5>
-
-          <ul class="list-unstyled footer-links">
-
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-
-            <li>
-              <a href="about.html">About</a>
-            </li>
-
-            <li>
-              <a href="faculty.html">Faculty</a>
-            </li>
-
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-
-          </ul>
-
-        </div>
-
-        <div class="col-lg-3">
-
-          <h5 class="footer-title">
-
-            Courses
-
-          </h5>
-
-          <ul class="list-unstyled footer-links">
-
-            <li>B.Ed Programme</li>
-            <li>B.A.B.Ed Integrated</li>
-            <li>Educational Research</li>
-
-          </ul>
-
-        </div>
-
-        <div class="col-lg-3">
-
-          <h5 class="footer-title">
-
-            Contact
-
-          </h5>
-
-          <ul class="list-unstyled footer-links">
-
-            <li>Suvakheda, Neemuch MP</li>
-            <li>9425939832, 7771001340</li>
-            <li>gyanodayauniversity@gmail.com</li>
-
-          </ul>
-
-        </div>
-
-      </div>
-
-      <hr class="border-secondary my-5">
-
-      <div class="text-center small">
-
-        © 2026 BKBTERC. All Rights Reserved.
-
-      </div>
-
-    </div>
-
-  </footer>
-
-  <!-- WHATSAPP -->
-
-  <a href="https://wa.me/919827550959"
-    class="whatsapp-btn">
-
-    <i class="bi bi-whatsapp"></i>
-
-  </a>
-
-  <!-- JS -->
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
